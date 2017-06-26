@@ -1,7 +1,58 @@
+
 h1 {
-    color: blue;
+  font-family: 'Homemade Apple', cursive;
+    font-size: 42px;
+    text-align: center;
+}
+
+h2{
+  font-family: 'Special Elite', cursive;
+    font-size: 22px;
+    text-align: center;
 }
 
 p {
-  color: red;
+  font-size: 18px;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  background-color: white;
+  height: 100px;
+  width: 55%;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: MistyRose;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
 }
